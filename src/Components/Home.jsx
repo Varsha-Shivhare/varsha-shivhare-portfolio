@@ -1,6 +1,7 @@
 import React from "react";
 // import VsImage from "../Assets/vs.jpg";
-import VsNew from "../Assets/vsnew.jpeg";
+// import VsNew from "../Assets/vsnew.jpeg";
+import Varsha from "../Assets/Varsha.jpg";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -32,7 +33,7 @@ function Home() {
       </div>
       </div>
       <div>
-        <img src={VsNew} alt="VS" className="rounded-2xl mx-auto w-2/3"/>
+        <img src={Varsha} alt="VS" className="rounded-2xl mx-auto w-60 h-80"/>
       </div>
       </div>  
     </div>
