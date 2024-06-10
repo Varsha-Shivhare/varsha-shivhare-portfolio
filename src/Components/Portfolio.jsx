@@ -2,7 +2,7 @@
 import React from 'react';
 import Editor from '../Assets/Editor.png';
 import Pokemon from '../Assets/Pokemon.png';
-import Recipe from '../Assets/Recipe.png';
+// import Recipe from '../Assets/Recipe.png';
 
 function Portfolio() {
 
@@ -14,11 +14,11 @@ function Portfolio() {
       {
         id:2,
         src: Pokemon
-      },
-      {
-        id:3,
-        src: Recipe
       }
+      // {
+      //   id:3,
+      //   src: Recipe
+      // }
   ]
 
   const codes = [
@@ -30,13 +30,13 @@ function Portfolio() {
     {
       id: 2,
       code: 'https://github.com/Varsha-Shivhare/pokemon',
-      demo: '#'
-    },
-    {
-      id: 3,
-      code: 'https://github.com/Varsha-Shivhare/Recipe.github.io',
-      demo: '#'
+      demo: 'https://search-the-pokemon.netlify.app/'
     }
+    // {
+    //   id: 3,
+    //   code: 'https://github.com/Varsha-Shivhare/Recipe.github.io',
+    //   demo: '#'
+    // }
   ]
 
   const handleDemo = (e, {id}) => {
@@ -69,7 +69,7 @@ function Portfolio() {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2  gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
