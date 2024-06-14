@@ -24,7 +24,7 @@ function About() {
           Integrated third party libraries to track users for entire
           application, single handedly Facilitating daily scrum to ensure smooth
           project flow and achieve overall success of the projects API reference
-          documentation and build webpage for the same
+          documentation and build webpage for the same.
         </p>
 
         <br />
